@@ -1,0 +1,28 @@
+{
+  "name": "@alfimonth/dfh",
+  "version": "1.0.1",
+  "description": "Convert JS Date to human readable format like '2 minutes ago'",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfimonth/dfh"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "human readable",
+    "diffForHumans",
+    "dfh"
+  ],
+  "bugs": {
+    "url": "https://github.com/alfimonth/dfh/issues"
+  },
+  "homepage": "https://github.com/alfimonth/dfh#readme",
+  "author": "alfimonth",
+  "license": "MIT"
+}
