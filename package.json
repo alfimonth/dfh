@@ -1,9 +1,13 @@
 {
   "name": "@alfimonth/dfh",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Convert JS Date to human readable format like '2 minutes ago'",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test"
+  },
   "files": [
     "dist",
     "README.md"
@@ -24,5 +28,8 @@
   },
   "homepage": "https://github.com/alfimonth/dfh#readme",
   "author": "alfimonth",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
